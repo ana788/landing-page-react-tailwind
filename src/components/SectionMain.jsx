@@ -5,6 +5,7 @@ import Container from "./Container"
 import ImgAppleStore from "@/assets/btn-apple-store.svg"
 import ImgGoogleStore from "@/assets/btn-google-play.svg"
 import Arrow from '@/assets/arrow-explorer.svg'
+import WomanImage from '@/assets/woman.png'
 
 
 const SectionMain = () => {
@@ -28,6 +29,9 @@ const SectionMain = () => {
                     </button>
 
                 </div>
+
+                <Image src={WomanImage} alt="Woman" className="mr-[-41px]"/>
+
             </Container>
         </section>
     )
