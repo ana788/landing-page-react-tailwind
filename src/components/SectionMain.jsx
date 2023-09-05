@@ -30,7 +30,7 @@ const SectionMain = () => {
 
                 </div>
 
-                <Image src={WomanImage} alt="Woman" className="mr-[-41px]"/>
+               <Image src={WomanImage} alt="Woman" className="mr-[-41px]"/>
 
             </Container>
         </section>
