@@ -10,7 +10,8 @@ import IconUser from '@/assets/icon-user.svg'
 const Header = () => {
     return(
         <header className="relative flex items-center w-full h-20 bg-primary-orange">
-            <div className="absolute top-0 right-0 bg-primary-blue w-[19%] h-full z-0"></div>
+            {/* <div className="absolute top-0 right-0 bg-primary-blue w-[19%] h-full z-0"></div>*/}
+            
            <Container> {/* div que engloba todos os elementos da header.*/}
                 
                 <div className="flex flex-1 justify-between"> {/* div que engloba os elementos a esquerda da header */}
@@ -28,7 +29,7 @@ const Header = () => {
                     <Search />{/* componente que engloba elemento da partição DIREITA da esquerda da header */}
                 </div>
 
-                <button className="flex items-center gap-4 text-white bg-primary-blue h-20 pl-10 z-10">
+                <button className="flex items-center gap-4 text-white bg-primary-blue h-20 pl-10 z-10 after: absolute after:top-0 after: right-0 after: bg-primary-blue after:w-[19%] after:h-full after: z-0">
                     <Image src={IconUser} alt='Ícone do usuário'/>
                     <span className="font-bold">Acesse sua conta</span>
                 </button>
